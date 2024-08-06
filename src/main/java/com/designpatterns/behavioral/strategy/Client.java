@@ -1,5 +1,9 @@
 package com.designpatterns.behavioral.strategy;
 
+import com.designpatterns.behavioral.strategy.strategies.LowercaseStrategy;
+import com.designpatterns.behavioral.strategy.strategies.RandomCaseStrategy;
+import com.designpatterns.behavioral.strategy.strategies.UppercaseStrategy;
+
 public class Client {
   public static void main(String[] args) {
     LowercaseStrategy str1 = new LowercaseStrategy();
@@ -17,3 +21,9 @@ public class Client {
     executor.printString(input);
   }
 }
+
+/*
+lorem ipsum dolor sit amet
+LOREM IPSUM DOLOR SIT AMET
+LOrEm ipSUM doLoR sit AMET
+*/

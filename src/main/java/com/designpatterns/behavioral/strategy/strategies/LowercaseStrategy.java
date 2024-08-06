@@ -1,4 +1,6 @@
-package com.designpatterns.behavioral.strategy;
+package com.designpatterns.behavioral.strategy.strategies;
+
+import com.designpatterns.behavioral.strategy.PrintStrategy;
 
 public class LowercaseStrategy implements PrintStrategy {
 

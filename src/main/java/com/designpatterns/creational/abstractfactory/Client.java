@@ -1,6 +1,5 @@
 package com.designpatterns.creational.abstractfactory;
 
-
 public class Client {
     public static void main(String[] args) {
 
@@ -10,5 +9,13 @@ public class Client {
 
        hungryFactory.getDish("eat", "burger").prepare();
 
+       hungryFactory.getDish("drink", "orange").prepare();
+
     }
 }
+
+/*
+Lemon Juice is prepared
+Burger is prepared
+Lemon Juice is prepared
+*/

@@ -12,7 +12,7 @@ public class Client {
     String input = "";
 
     do {
-      System.out.print("-- Please input command: ");
+      System.out.print("\n--Please input command: ");
       try {
         input = reader.readLine().trim().toLowerCase();
         switch (input) {
@@ -34,3 +34,28 @@ public class Client {
 
   }
 }
+/*
+-- Game in WelcomeScreen state --
+
+--Please input command: w
+Currently on welcome screen
+
+--Please input command: e
+Not allowed.
+
+--Please input command: p
+-- Game in Playing state. --
+
+--Please input command: b
+-- Game in Break state --
+
+--Please input command: p
+-- Game in Playing state. --
+
+--Please input command: e
+-- Game in EndGame state --
+
+--Please input command: exit
+-- Unknown command --
+
+*/

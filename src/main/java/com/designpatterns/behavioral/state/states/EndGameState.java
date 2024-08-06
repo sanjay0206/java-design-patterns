@@ -1,5 +1,8 @@
-package com.designpatterns.behavioral.state;
+package com.designpatterns.behavioral.state.states;
 
+
+import com.designpatterns.behavioral.state.Game;
+import com.designpatterns.behavioral.state.State;
 
 public class EndGameState extends State {
 

@@ -1,7 +1,5 @@
 package com.designpatterns.creational.singleton;
 
-import org.junit.Test;
-
 public class SingletonLazy {
     private static SingletonLazy lazyInstance;
 

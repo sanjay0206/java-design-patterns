@@ -2,7 +2,7 @@ package com.designpatterns.behavioral.state;
 
 public abstract class State {
 
-  Game game;
+  public Game game;
 
   public State(Game game) {
     this.game = game;

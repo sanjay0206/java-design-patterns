@@ -1,5 +1,5 @@
 package com.designpatterns.creational.factory;
 
-public interface Shape {
-    String getShape();
+public interface IDish {
+    void prepare();
 }
